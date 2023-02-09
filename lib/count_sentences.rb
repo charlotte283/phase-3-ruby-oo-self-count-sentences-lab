@@ -16,8 +16,8 @@ class String
 end
 
   def count_sentences
-    self.split(/[?!.]\s+[A-Z]/).count
+    self.split(/[?!.]\s/).count
   end
 end
  #puts "This is a string! It has three sentences. Right?".count_sentences
- binding.pry
+ 
